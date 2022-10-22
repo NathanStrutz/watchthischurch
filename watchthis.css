@@ -1,0 +1,92 @@
+html {
+  font-size: 1.2em;
+}
+body {
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  /* background: top center / cover no-repeat url("./i/header-1.jpg");
+  height: 1vh;
+  min-height: 1vh;
+  max-height: 1vh; */
+}
+p,
+blockquote {
+  color: #111;
+  font-family: "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+#bigPhoto {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* height: 1280px; */
+  background: top center / cover no-repeat url("./i/header-1.jpg");
+}
+
+header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+  margin: 0 auto;
+  width: 900px;
+  height: 400px;
+}
+header > * {
+  margin: 0 0.3rem;
+}
+header > h1 {
+  font-size: 2.2rem;
+}
+header > h3 {
+  font-size: 1.4rem;
+  color: #444;
+  font-weight: normal;
+}
+
+blockquote.introduction {
+  background: #f6f6f6;
+  padding: 3rem;
+  width: 900px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+section {
+  margin: 0 0 2rem 0;
+}
+main {
+  background: #f6f6f6;
+  padding: 3rem;
+  width: 900px;
+  margin: 1.5rem auto;
+}
+main p {
+  margin: 1rem 0 1rem 0;
+}
+
+footer {
+  background: #6f6f6f;
+  padding: 1rem 3rem;
+  width: 900px;
+  margin: 1.5rem auto 0;
+  font-size: 0.3rem;
+}
+footer p {
+  font-size: 0.6rem;
+}
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+img[align="right"] {
+  padding: 0 0 0 10px;
+}
