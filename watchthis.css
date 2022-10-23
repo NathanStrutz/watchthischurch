@@ -99,16 +99,29 @@ footer a {
   color: #333;
 }
 
-img.pastor {
+img {
   border-radius: 4px;
   width: 100%;
   height: auto;
-  max-width: 330px;
-  max-height: 220px;
+  max-width: min-content;
+  max-height: min-content;
+}
+
+.paypal {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
 }
 
 .if-lg {
   display: none;
+}
+.lightweight {
+  font-family: "Segoe UI Light", "Segoe WP Light", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 900px) {
