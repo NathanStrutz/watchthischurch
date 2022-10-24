@@ -1,6 +1,7 @@
 # Watch This! Church
 
-https://watchthis.church/
+- https://watchthis.church/
+- https://watchthis-church.netlify.app/
 
 #### Deploying via Netlify
 
